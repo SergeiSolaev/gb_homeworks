@@ -1,0 +1,103 @@
+//    public void step(ArrayList<Base> Own, ArrayList<Base> Enemy) {
+//        if (this.currentHP == 0) {return;}
+//        int k = findNearest2(Enemy);
+//        int l = findNearest(Enemy);
+//        int[] coordStep = coordinates.coordStep(Enemy.get(k).coordinates);
+//        for (int i = 0; i < Own.size(); i++){
+//            if (Own.get(i).coordinates.x == coordStep[0] && Own.get(i).coordinates.y == coordStep[1]) {
+//                return;
+//            }
+//        }
+//        if(this.state != "Stand"){
+//            Enemy.get(l).currentHP -= (this.attack[1] + this.attack[0]) / 2 - Enemy.get(k).defence;
+//            Enemy.get(l).state = "Under_Attack";
+//            this.state = "Attack";
+//            if (Enemy.get(l).currentHP <= 0) {
+//                Enemy.get(l).state = "Die";
+//                Enemy.get(l).currentHP = 0;
+//                this.state = "Stand";
+//            }
+//        }
+//        if (Enemy.get(k).coordinates.x == coordStep[0] && Enemy.get(k).coordinates.y == coordStep[1]) {
+//            Enemy.get(k).currentHP -= (this.attack[1] + this.attack[0]) / 2 - Enemy.get(k).defence;
+//            Enemy.get(k).state = "Under_Attack";
+//            this.state = "Attack";
+//            if (Enemy.get(k).currentHP <= 0) {
+//                Enemy.get(k).state = "Die";
+//                Enemy.get(k).currentHP = 0;
+//                this.state = "Free";
+//            }
+//
+//            return;
+//        }
+//
+//        this.coordinates.x = coordStep[0];
+//        this.coordinates.y = coordStep[1];
+//
+//    }
+
+
+//    protected int findNearest2(ArrayList<Base> teamEnemy) {
+//        double minDistance = coordinates.getDistance(teamEnemy.get(0).coordinates.x,
+//                teamEnemy.get(0).coordinates.y);
+//        int enemyIndex = 0;
+//
+//        for (int i = 0; i < teamEnemy.size(); i++) {
+//            if (teamEnemy.get(i).state.equals("Stand")){
+//                double j = coordinates.getDistance(teamEnemy.get(i).coordinates.x,
+//                        teamEnemy.get(i).coordinates.y);
+//                if (j < minDistance) {
+//                    minDistance = j;
+//                    enemyIndex = i;
+//                }
+//            }
+//
+//        }
+//        return enemyIndex;
+//    }
+}
+
+
+//    public void step(ArrayList<Base> Own, ArrayList<Base> Enemy) {
+//        if (this.currentHP == 0) {return;}         // Проверяем здоровье
+//        int nearstEnemyIndex = findNearest(Enemy); //  Ищем ближайшего врага
+//
+//        int enemyX = Enemy.get(nearstEnemyIndex).coordinates.x;
+//        int enemyY = Enemy.get(nearstEnemyIndex).coordinates.y;
+//
+//        if(this.numberTeam == 1 && this.coordinates.y +1 < enemyY){
+//            this.coordinates.y +=1;
+//            if(this.coordinates.y +1 == enemyY){
+//                attack(Enemy);
+//                this.state = "Attack!";
+//            }
+//            else {this.state = "Move";}
+//        }
+//
+//        if (this.numberTeam == 2 && this.coordinates.y -1 > enemyY) {
+//            this.coordinates.y -=1;
+//            if(this.coordinates.y -1 == enemyY){
+//                attack(Enemy);
+//                this.state = "Attack!";
+//            }
+//            else {this.state = "Move";}
+//        }
+//    }
+
+
+
+//    public  int[] coordStep(Coordinates coordEnemy) {
+//
+//        int[] coordStep = {x,y};
+//        if(Math.abs(this.x-coordEnemy.x) < Math.abs(this.y-coordEnemy.y)){
+//
+//            if (coordEnemy.y > this.y) coordStep[1] += 1;
+//            else coordStep[1] -= 1;
+//        }
+//        else {
+//            if (coordEnemy.x > this.x) coordStep[0] += 1;
+//            else coordStep[0] -= 1;
+//        }
+//
+//        return coordStep;
+//    }

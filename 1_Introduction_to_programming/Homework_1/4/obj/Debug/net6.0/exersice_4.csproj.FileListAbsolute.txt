@@ -1,0 +1,15 @@
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.csproj.AssemblyReference.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.AssemblyInfoInputs.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.AssemblyInfo.cs
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.csproj.CoreCompileInputs.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\bin\Debug\net6.0\exersice_4.exe
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\bin\Debug\net6.0\exersice_4.deps.json
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\bin\Debug\net6.0\exersice_4.runtimeconfig.json
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\bin\Debug\net6.0\exersice_4.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\bin\Debug\net6.0\exersice_4.pdb
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\refint\exersice_4.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.pdb
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\exersice_4.genruntimeconfig.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 1 семинар\homework\exersice_4\obj\Debug\net6.0\ref\exersice_4.dll

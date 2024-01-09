@@ -1,0 +1,4 @@
+#Fri Jul 21 21:11:24 SAMT 2023
+base.0=D\:\\YandexDisk\\GDX\\android\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

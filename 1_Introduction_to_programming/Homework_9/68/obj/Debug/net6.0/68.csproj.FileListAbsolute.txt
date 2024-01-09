@@ -1,0 +1,15 @@
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.csproj.AssemblyReference.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.AssemblyInfoInputs.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.AssemblyInfo.cs
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.csproj.CoreCompileInputs.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\bin\Debug\net6.0\68.exe
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\bin\Debug\net6.0\68.deps.json
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\bin\Debug\net6.0\68.runtimeconfig.json
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\bin\Debug\net6.0\68.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\bin\Debug\net6.0\68.pdb
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\refint\68.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.pdb
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\68.genruntimeconfig.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 9 семинар\homework\68\obj\Debug\net6.0\ref\68.dll

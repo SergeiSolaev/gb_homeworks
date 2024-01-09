@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mygdx.game.test" >
+4
+5    <uses-sdk
+5-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:5:5-74
+6        android:minSdkVersion="14"
+6-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:11:5-15:64
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:13:22-53
+13        android:label="Tests for com.mygdx.game"
+13-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:15:22-62
+14        android:targetPackage="com.mygdx.game" />
+14-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:12:22-60
+15
+16    <application android:debuggable="true" >
+16-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:8:9-60
+17-->D:\YandexDisk\GDX\android\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8366433453940523881.xml:8:23-57
+18    </application>
+19
+20</manifest>

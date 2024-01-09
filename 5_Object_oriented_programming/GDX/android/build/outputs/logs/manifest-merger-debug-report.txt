@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.0] C:\Users\id2k9\.gradle\caches\transforms-3\f1ef87e315f00930120bb344aaf17b8c\transformed\gdx-backend-android-1.12.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\id2k9\.gradle\caches\transforms-3\8639585d857e33e5d24a6f4d4191729d\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\5cf25403325eeedee2275fc41bde1b2a\transformed\activity-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\46424c8ee36b715020d8990c40cb2503\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\663e1116a3f6e403cb02379c7376ccee\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\945c2799fc93be76e2cd12bd5eef1fa0\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\id2k9\.gradle\caches\transforms-3\2a87dc3888bb26f0fc96f9c295955438\transformed\core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\e836f589fb670d937c76f53085024d61\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\c48adf580cb857b4ac28be48a0e1e82b\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] C:\Users\id2k9\.gradle\caches\transforms-3\dce507aae76c58052e6f2c8f6aff2bc9\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\id2k9\.gradle\caches\transforms-3\8b9c249af343fda89eabcb7465c5eb82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\id2k9\.gradle\caches\transforms-3\d7df08936c1869f5f50acd9f22583377\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\ef9bcb5a7e28a5aa57af2cf5ac564d1b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\b89ab86c5f6ae379237c392a1e681e51\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\5a76dac528a530b66aeeb03946e4a93c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\0f7a6f4a9f84d9fa92503b3e85b453b2\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\id2k9\.gradle\caches\transforms-3\71b1462e5a0fce09bd25c49ba8e959d3\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\id2k9\.gradle\caches\transforms-3\0b95b67abbcfd1031acc5de090f12733\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+	package
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:1-29:12
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:2:11-69
+uses-feature#0x00020000
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:5:5-78
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.0] C:\Users\id2k9\.gradle\caches\transforms-3\f1ef87e315f00930120bb344aaf17b8c\transformed\gdx-backend-android-1.12.0\AndroidManifest.xml:9:5-11:35
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.0] C:\Users\id2k9\.gradle\caches\transforms-3\f1ef87e315f00930120bb344aaf17b8c\transformed\gdx-backend-android-1.12.0\AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:5:19-51
+	android:required
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:5:52-75
+application
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:7:5-27:19
+MERGED from [androidx.core:core:1.8.0] C:\Users\id2k9\.gradle\caches\transforms-3\dce507aae76c58052e6f2c8f6aff2bc9\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] C:\Users\id2k9\.gradle\caches\transforms-3\dce507aae76c58052e6f2c8f6aff2bc9\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\id2k9\.gradle\caches\transforms-3\8b9c249af343fda89eabcb7465c5eb82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\id2k9\.gradle\caches\transforms-3\8b9c249af343fda89eabcb7465c5eb82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] C:\Users\id2k9\.gradle\caches\transforms-3\dce507aae76c58052e6f2c8f6aff2bc9\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:9:9-41
+	android:appCategory
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:12:9-35
+	tools:ignore
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:15:9-39
+	android:icon
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:14:9-40
+	android:isGame
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:11:9-30
+activity#com.mygdx.game.AndroidLauncher
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:16:9-26:20
+	android:screenOrientation
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:19:13-50
+	android:label
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:21:13-36
+	android:configChanges
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:20:13-107
+	android:name
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:17:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.0] C:\Users\id2k9\.gradle\caches\transforms-3\f1ef87e315f00930120bb344aaf17b8c\transformed\gdx-backend-android-1.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.0] C:\Users\id2k9\.gradle\caches\transforms-3\f1ef87e315f00930120bb344aaf17b8c\transformed\gdx-backend-android-1.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\id2k9\.gradle\caches\transforms-3\8639585d857e33e5d24a6f4d4191729d\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\id2k9\.gradle\caches\transforms-3\8639585d857e33e5d24a6f4d4191729d\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\5cf25403325eeedee2275fc41bde1b2a\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\5cf25403325eeedee2275fc41bde1b2a\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\46424c8ee36b715020d8990c40cb2503\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\46424c8ee36b715020d8990c40cb2503\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\663e1116a3f6e403cb02379c7376ccee\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\663e1116a3f6e403cb02379c7376ccee\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\945c2799fc93be76e2cd12bd5eef1fa0\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\945c2799fc93be76e2cd12bd5eef1fa0\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\id2k9\.gradle\caches\transforms-3\2a87dc3888bb26f0fc96f9c295955438\transformed\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\id2k9\.gradle\caches\transforms-3\2a87dc3888bb26f0fc96f9c295955438\transformed\core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\e836f589fb670d937c76f53085024d61\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\e836f589fb670d937c76f53085024d61\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\c48adf580cb857b4ac28be48a0e1e82b\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\c48adf580cb857b4ac28be48a0e1e82b\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] C:\Users\id2k9\.gradle\caches\transforms-3\dce507aae76c58052e6f2c8f6aff2bc9\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] C:\Users\id2k9\.gradle\caches\transforms-3\dce507aae76c58052e6f2c8f6aff2bc9\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\id2k9\.gradle\caches\transforms-3\8b9c249af343fda89eabcb7465c5eb82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\id2k9\.gradle\caches\transforms-3\8b9c249af343fda89eabcb7465c5eb82\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\id2k9\.gradle\caches\transforms-3\d7df08936c1869f5f50acd9f22583377\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\id2k9\.gradle\caches\transforms-3\d7df08936c1869f5f50acd9f22583377\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\ef9bcb5a7e28a5aa57af2cf5ac564d1b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\ef9bcb5a7e28a5aa57af2cf5ac564d1b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\b89ab86c5f6ae379237c392a1e681e51\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\b89ab86c5f6ae379237c392a1e681e51\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\5a76dac528a530b66aeeb03946e4a93c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\id2k9\.gradle\caches\transforms-3\5a76dac528a530b66aeeb03946e4a93c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\0f7a6f4a9f84d9fa92503b3e85b453b2\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\id2k9\.gradle\caches\transforms-3\0f7a6f4a9f84d9fa92503b3e85b453b2\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\id2k9\.gradle\caches\transforms-3\71b1462e5a0fce09bd25c49ba8e959d3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\id2k9\.gradle\caches\transforms-3\71b1462e5a0fce09bd25c49ba8e959d3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\id2k9\.gradle\caches\transforms-3\0b95b67abbcfd1031acc5de090f12733\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\id2k9\.gradle\caches\transforms-3\0b95b67abbcfd1031acc5de090f12733\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		ADDED from D:\YandexDisk\GDX\android\AndroidManifest.xml
+		INJECTED from D:\YandexDisk\GDX\android\AndroidManifest.xml

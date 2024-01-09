@@ -1,0 +1,15 @@
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\bin\Debug\net6.0\37_dop.exe
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\bin\Debug\net6.0\37_dop.deps.json
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\bin\Debug\net6.0\37_dop.runtimeconfig.json
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\bin\Debug\net6.0\37_dop.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\bin\Debug\net6.0\37_dop.pdb
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.csproj.AssemblyReference.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.GeneratedMSBuildEditorConfig.editorconfig
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.AssemblyInfoInputs.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.AssemblyInfo.cs
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.csproj.CoreCompileInputs.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\refint\37_dop.dll
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.pdb
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\37_dop.genruntimeconfig.cache
+D:\YandexDisk\Обучение\4. Знакомство с языками программирования\Урок 5 семинар\homework\37_dop\obj\Debug\net6.0\ref\37_dop.dll
