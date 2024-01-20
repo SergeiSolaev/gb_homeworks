@@ -95,7 +95,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(1, 1), "0")
                     && (Objects.equals(field.getFieldElement(1, 2), "0")
                     && (Objects.equals(field.getFieldElement(1, 3), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -103,7 +103,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(2, 1), "0")
                     && (Objects.equals(field.getFieldElement(2, 2), "0")
                     && (Objects.equals(field.getFieldElement(2, 3), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -111,7 +111,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(3, 1), "0")
                     && (Objects.equals(field.getFieldElement(3, 2), "0")
                     && (Objects.equals(field.getFieldElement(3, 3), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -119,7 +119,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(1, 1), "0")
                     && (Objects.equals(field.getFieldElement(2, 1), "0")
                     && (Objects.equals(field.getFieldElement(3, 1), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -127,7 +127,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(1, 2), "0")
                     && (Objects.equals(field.getFieldElement(2, 2), "0")
                     && (Objects.equals(field.getFieldElement(3, 2), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -135,7 +135,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(1, 3), "0")
                     && (Objects.equals(field.getFieldElement(2, 3), "0")
                     && (Objects.equals(field.getFieldElement(3, 3), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -143,7 +143,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(1, 1), "0")
                     && (Objects.equals(field.getFieldElement(2, 2), "0")
                     && (Objects.equals(field.getFieldElement(3, 3), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
@@ -151,7 +151,7 @@ public class Main {
             if(((Objects.equals(field.getFieldElement(1, 3), "0")
                     && (Objects.equals(field.getFieldElement(2, 2), "0")
                     && (Objects.equals(field.getFieldElement(3, 1), "0")))))) {
-                System.out.println("Крестики выиграли! Поздравляем!");
+                System.out.println("Нолики выиграли! Поздравляем!");
                 game.setGameRun(false);
                 break;
             }
