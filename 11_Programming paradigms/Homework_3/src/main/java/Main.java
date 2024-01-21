@@ -87,6 +87,7 @@ public class Main {
                 break;
             }
             //Ничья
+
             if(
                  (Objects.equals(field.getFieldElement(1, 1), "X") ||
                   Objects.equals(field.getFieldElement(1, 1), "0"))
