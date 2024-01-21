@@ -23,9 +23,11 @@ public class Game {
             System.out.println("Введите номер строки в которую вы хотите поставить крестик:");
             Scanner scanner = new Scanner(System.in);
             this.rowNumber = scanner.nextInt();
+
             System.out.println("Введите номер колонки в которую вы хотите поставить крестик:");
             this.columnNumber = scanner.nextInt();
-            if (this.rowNumber > 3 || this.rowNumber < 1 || this.columnNumber > 3 || this.columnNumber < 1 ){
+
+            if (this.rowNumber > 3 || this.rowNumber < 0 || this.columnNumber > 3 || this.columnNumber < 0 ){
                 System.out.println("Введены неверные координаты. Введите номер строки и номер колонки ещё раз:");
                 stepCross();
             }
@@ -36,7 +38,7 @@ public class Game {
         this.rowNumber = scanner.nextInt();
         System.out.println("Введите номер колонки в которую вы хотите поставить нолик:");
         this.columnNumber = scanner.nextInt();
-        if (this.rowNumber > 3 || this.rowNumber < 1 || this.columnNumber > 3 || this.columnNumber < 1 ){
+        if (this.rowNumber > 3 || this.rowNumber < 0 || this.columnNumber > 3 || this.columnNumber < 0 ){
             System.out.println("Введены неверные координаты. Введите номер строки и номер колонки ещё раз:");
             stepZero();
         }

@@ -9,8 +9,13 @@ public class Main {
         field.printField();
         while (game.isGameRun()){
             game.stepCross();
+            if (game.getRowNumber() == 0 || game.getColumnNumber() == 0)  {
+                System.out.println("Крестики отказались продолжать игру. Нолики выиграли!");
+                break;
+            }
             while(((Objects.equals(field.getFieldElement(game.getRowNumber(), game.getColumnNumber()), "X")
                     || (Objects.equals(field.getFieldElement(game.getRowNumber(), game.getColumnNumber()), "0"))))) {
+
                 System.out.println("Место занято! Попробуйте ещё раз.");
                 field.printField();
                 game.stepCross();
@@ -81,8 +86,45 @@ public class Main {
                 game.setGameRun(false);
                 break;
             }
+            //Ничья
+            if(
+                 (Objects.equals(field.getFieldElement(1, 1), "X") ||
+                  Objects.equals(field.getFieldElement(1, 1), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(1, 2), "X") ||
+                  Objects.equals(field.getFieldElement(1, 2), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(1, 3), "X") ||
+                  Objects.equals(field.getFieldElement(1, 3), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(2, 1), "X") ||
+                  Objects.equals(field.getFieldElement(2, 1), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(2, 2), "X") ||
+                  Objects.equals(field.getFieldElement(2, 2), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(2, 3), "X") ||
+                  Objects.equals(field.getFieldElement(2, 3), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(3, 1), "X") ||
+                  Objects.equals(field.getFieldElement(3, 1), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(3, 2), "X") ||
+                  Objects.equals(field.getFieldElement(3, 2), "0"))
+                 &&
+                 (Objects.equals(field.getFieldElement(3, 3), "X") ||
+                  Objects.equals(field.getFieldElement(3, 3), "0"))
+            ){
+                System.out.println("Ничья!");
+                game.setGameRun(false);
+                break;
+            }
 
             game.stepZero();
+            if (game.getRowNumber() == 0 || game.getColumnNumber() == 0)  {
+                System.out.println("Нолики отказались продолжать игру. Крестики выиграли!");
+                break;
+            }
             while(((Objects.equals(field.getFieldElement(game.getRowNumber(), game.getColumnNumber()), "X")
                     || (Objects.equals(field.getFieldElement(game.getRowNumber(), game.getColumnNumber()), "0"))))) {
                 System.out.println("Место занято! Попробуйте ещё раз.");
