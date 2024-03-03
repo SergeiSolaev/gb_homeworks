@@ -9,17 +9,21 @@ body {
     font-family: Lato;
 }
 
+img {
+    max-width: 100%;
+}
+
 .center {
-    margin-left: calc(50% - 800px);
-    margin-right: calc(50% - 800px);
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background: rgb(34, 34, 34);
-    padding-left: 231px;
-    padding-right: 240px;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
     padding-bottom: 20px;
     padding-top: 18px;
 }
@@ -43,15 +47,14 @@ body {
 .top {
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 228, 230);
-    
 }
 
 .promo {
     display: flex;
-    flex-wrap: wrap;
     background: #F1E4E6;
   }
+
+
 
 .promo_info {
     border-left: 12px solid #F16D7F;
