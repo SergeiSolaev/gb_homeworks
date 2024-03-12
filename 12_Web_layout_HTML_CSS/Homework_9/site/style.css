@@ -60,8 +60,7 @@ a {
   }
 
 .menu {
-    padding: 32px 32px;
-    width: 150px;
+    padding: 32px;
     background: white;
     position: absolute;
     top: 75px;
@@ -263,11 +262,16 @@ a {
     background-color: #F8F8F8;
 }
 
-.product_img {
+.product_img_block {
     position: relative;
 }
 
-.product_img:hover .product_add {
+.product_img {
+    width: 100%;
+}
+
+
+.product_img_block:hover .product_add {
     background: rgba(58, 56, 56, 0.86);
     opacity: 1;
     transition: opacity 0.4s;
