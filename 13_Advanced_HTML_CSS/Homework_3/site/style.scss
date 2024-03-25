@@ -45,25 +45,25 @@ a {
     justify-content: space-between;
     align-items: center;
 
-    &_left {
+    &__left {
         display: flex;
         align-items: center;
         gap: 41px;
     }
 
-    &_right {
+    &__right {
         display: flex;
         align-items: center;
         gap: 33px;
     }
 
-    &_checkbox {
+    &__checkbox {
         position: absolute;
         visibility: hidden;
         left: -9999999px;
     }
 
-    &_checkbox:checked~.menu {
+    &__checkbox:checked~.menu {
         position: absolute;
         top: 75px;
         right: 0px;
@@ -80,11 +80,11 @@ a {
     transition: right 0.6s;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 
-    &_img {
+    &__img {
         cursor: pointer;
     }
 
-    &_title {
+    &__title {
         padding-bottom: 15px;
         color: rgb(0, 0, 0);
         font-size: 14px;
@@ -94,7 +94,7 @@ a {
         text-align: left;
     }
 
-    &_subtitle {
+    &__subtitle {
         padding-top: 9px;
         margin-bottom: 12px;
         color: $colorSelectSite;
@@ -105,13 +105,13 @@ a {
         text-align: left;
     }
 
-    &_list {
+    &__list {
         list-style-type: none;
         margin-bottom: 11px;
         padding-left: 22px;
     }
 
-    &_link {
+    &__link {
         color: rgb(111, 110, 110);
         font-size: 14px;
         font-weight: 400;
@@ -120,7 +120,7 @@ a {
         text-align: left;
     }
 
-    &_link:hover {
+    &__link:hover {
         color: $colorSelectSite;
     }
 }
@@ -129,7 +129,7 @@ a {
     position: relative;
 }
 
-.count_products {
+.count__products {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -154,17 +154,17 @@ a {
     padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
 
-    &_img {
+    &__img {
         width: 50%;
     }
 
-    &_info {
+    &__info {
         border-left: 12px solid $colorSelectSite;
         padding-left: 16px;
         margin-top: 60%;
     }
 
-    &_title {
+    &__title {
         font-style: normal;
         font-weight: 900;
         font-size: 48px;
@@ -172,7 +172,7 @@ a {
         color: #222222;
     }
 
-    &_heading {
+    &__heading {
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -180,11 +180,11 @@ a {
         color: #222222;
     }
 
-    &_content {
+    &__content {
         padding-left: 64px;
     }
 
-    &_color-text {
+    &__color-text {
         color: $colorSelectSite;
     }
 }
@@ -197,17 +197,17 @@ a {
     gap: 30px;
     justify-content: center;
 
-    &_item {
+    &__item {
         position: relative;
     }
 
-    &_item_big {
+    &__item__big {
         position: relative;
         grid-column: span 3;
 
     }
 
-    &_item_content {
+    &__item__content {
         top: 0;
         left: 0;
         width: 100%;
@@ -219,7 +219,7 @@ a {
         position: absolute;
     }
 
-    &_title {
+    &__title {
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -228,7 +228,7 @@ a {
         color: $colorSelectSite;
     }
 
-    &_subtitle {
+    &__subtitle {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -241,7 +241,7 @@ a {
 .catalog {
     padding-bottom: 85px;
 
-    &_title {
+    &__title {
         font-size: 30px;
         font-weight: 400;
         line-height: 36px;
@@ -250,7 +250,7 @@ a {
         color: rgb(34, 34, 34);
     }
 
-    &_text {
+    &__text {
         font-size: 14px;
         font-weight: 400;
         line-height: 17px;
@@ -259,7 +259,7 @@ a {
         color: rgb(159, 159, 159);
     }
 
-    &_items {
+    &__items {
         padding-top: 48px;
         padding-bottom: 48px;
         display: grid;
@@ -270,21 +270,21 @@ a {
 }
 
 .product {
-    &_img_block {
+    &__img__block {
         position: relative;
     }
 
-    &_img {
+    &__img {
         width: 100%;
     }
 
-    &_img_block:hover .product_add {
+    &__img__block:hover .product__add {
         background: rgba(58, 56, 56, 0.86);
         opacity: 1;
         transition: opacity 0.4s;
     }
 
-    &_add {
+    &__add {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -296,7 +296,7 @@ a {
         height: 100%;
     }
 
-    &_add_button {
+    &__add__button {
         display: flex;
         position: absolute;
         justify-content: center;
@@ -306,11 +306,11 @@ a {
         height: 44px;
     }
 
-    &_cart-img {
+    &__cart-img {
         padding-right: 11px;
     }
 
-    &_add-to-cart {
+    &__add-to-cart {
         color: rgb(255, 255, 255);
         font-size: 14px;
         font-weight: 400;
@@ -319,11 +319,11 @@ a {
         text-align: left;
     }
 
-    &_content {
+    &__content {
         padding: 24px 16px;
     }
 
-    &_name {
+    &__name {
         font-size: 13px;
         font-weight: 400;
         line-height: 16px;
@@ -332,7 +332,7 @@ a {
         color: rgb(0, 0, 0);
     }
 
-    &_dsc {
+    &__dsc {
         padding-top: 16px;
         padding-bottom: 16px;
         font-size: 14px;
@@ -343,7 +343,7 @@ a {
         color: rgb(93, 93, 93);
     }
 
-    &_price {
+    &__price {
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
@@ -353,13 +353,13 @@ a {
     }
 }
 
-.button_all_products {
+.button__all__products {
     display: flex;
     justify-content: center;
 
 }
 
-.all_products {
+.all__products {
     padding: 15px 39px;
     font-size: 16px;
     font-weight: 400;
@@ -370,13 +370,13 @@ a {
     transition: $transitionTime;
 }
 
-.all_products:hover {
+.all__products:hover {
     color: #FFFFFF;
     background-color: $colorSelectSite;
     transition: $transitionTime;
 }
 
-.pagination_box {
+.pagination__box {
     display: flex;
     justify-content: center;
     padding-bottom: 11px;
@@ -390,16 +390,27 @@ a {
     align-items: center;
     border: 1px solid #C4C4C4;
 
-    &_menu {
+    &__menu {
         display: flex;
         gap: 20px;
     }
 
-    &_list {
+    &__list {
         list-style-type: none;
     }
 
-    &_link {
+    &__link {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0%;
+        color: #C4C4C4;
+        &:hover{
+            color: $colorSelectSite;
+        }
+    }
+
+    &__link__last {
         font-size: 16px;
         font-weight: 300;
         line-height: 19px;
@@ -407,15 +418,7 @@ a {
         color: #C4C4C4;
     }
 
-    &_link_last {
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 19px;
-        letter-spacing: 0%;
-        color: #C4C4C4;
-    }
-
-    &_link_active {
+    &__link__active {
         font-size: 16px;
         font-weight: 300;
         line-height: 19px;
@@ -423,7 +426,7 @@ a {
         color: #EF5B70
     }
 
-    &_list:nth-last-child(2)::after {
+    &__list:nth-last-child(2)::after {
         content: '...';
         font-size: 16px;
         font-weight: 300;
@@ -447,7 +450,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
 
-    &_title {
+    &__title {
         padding-top: 28px;
         padding-bottom: 16px;
         color: rgb(251, 251, 251);
@@ -459,7 +462,7 @@ a {
         text-align: center;
     }
 
-    &_dsc {
+    &__dsc {
         color: rgb(251, 251, 251);
         font-size: 13.97px;
         font-weight: 300;
@@ -475,11 +478,11 @@ a {
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
-    background: url(img/subscribe_background.jpg);
+    background: url(img/subscribe-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
-    &_info {
+    &__info {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -487,11 +490,11 @@ a {
         justify-content: center;
     }
 
-    &_info_img {
+    &__info__img {
         width: 96px;
     }
 
-    &_dsc {
+    &__dsc {
         padding-top: 30px;
         padding-left: calc(50% - 160px);
         padding-right: calc(50% - 160px);
@@ -505,7 +508,7 @@ a {
         text-align: center;
     }
 
-    &_form {
+    &__form {
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -513,7 +516,7 @@ a {
         align-items: center;
     }
 
-    &_title {
+    &__title {
         color: rgb(34, 34, 36);
         font-size: 24px;
         font-weight: 700;
@@ -522,7 +525,7 @@ a {
         text-align: center;
     }
 
-    &_subtitle {
+    &__subtitle {
         padding-bottom: 32px;
         color: rgb(34, 34, 36);
         font-size: 18px;
@@ -532,12 +535,12 @@ a {
         text-align: center;
     }
 
-    &_input {
+    &__input {
         display: flex;
         height: 49px;
     }
 
-    &_input_field {
+    &__input__field {
         border-radius: 50px 0px 0px 50px;
         border: none;
         padding-left: 22px;
@@ -550,7 +553,7 @@ a {
         background-color: #E1E1E1;
     }
 
-    &_button {
+    &__button {
         min-width: 100px;
         border-radius: 0px 50px 50px 0px;
         border: none;
@@ -574,17 +577,17 @@ a {
     padding-left: calc(50% - 602px);
     padding-right: calc(50% - 602px);
 
-    &_copyright {
+    &__copyright {
         padding-left: 32px;
     }
 
-    &_social_media {
+    &__social__media {
         padding-right: 32px;
         display: flex;
         gap: 7px;
     }
 
-    &_social-media-icon {
+    &__social-media-icon {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -593,15 +596,15 @@ a {
         background-color: #FFFFFF;
     }
 
-    &_social-media-icon:hover {
+    &__social-media-icon:hover {
         background-color: $colorSelectSite;
     }
 
-    &_social-media-icon:hover path {
+    &__social-media-icon:hover path {
         fill: #FFFFFF;
     }
 
-    &_copyright-text {
+    &__copyright-text {
         color: rgb(251, 251, 251);
         font-size: 16px;
         font-weight: 400;
@@ -614,7 +617,7 @@ a {
 .breadcrumbs {
     display: flex;
 
-    &_head {
+    &__head {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -622,7 +625,7 @@ a {
         height: 148px;
     }
 
-    &_title {
+    &__title {
         color: $colorSelectSite;
         font-size: 24px;
         font-weight: 400;
@@ -631,7 +634,7 @@ a {
         text-align: left;
     }
 
-    &_box-link:not(:last-child)::after {
+    &__box-link:not(:last-child)::after {
         content: '/';
         padding-left: 8px;
         padding-right: 8px;
@@ -642,7 +645,7 @@ a {
         color: #636363;
     }
 
-    &_link {
+    &__link {
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0%;
@@ -650,7 +653,7 @@ a {
         color: #636363;
     }
 
-    &_box-link:last-child .breadcrumbs_link {
+    &__box-link:last-child .breadcrumbs__link {
         font-weight: 700;
         color: $colorSelectSite;
     }
@@ -672,7 +675,7 @@ a {
     position: relative;
     z-index: 10;
 
-    &_content {
+    &__content {
         background-color: #FFFFFF;
         padding: 0px 13px 16px 16px;
     }
@@ -682,7 +685,7 @@ a {
         box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     }
 
-    &[open] .filter_heading {
+    &[open] .filter__heading {
         color: $colorSelectSite;
     }
 
@@ -690,14 +693,14 @@ a {
         fill: $colorSelectSite;
     }
 
-    &_summary {
+    &__summary {
         display: flex;
         align-items: center;
         gap: 11px;
         padding-left: 16px;
     }
 
-    &_heading {
+    &__heading {
         color: #000000;
         font-size: 14px;
         font-weight: 600;
@@ -705,7 +708,7 @@ a {
         letter-spacing: 0%;
     }
 
-    &_item {
+    &__item {
         margin-top: 16px;
         color: rgb(111, 110, 110);
         font-size: 14px;
@@ -714,7 +717,7 @@ a {
         letter-spacing: 0%;
     }
 
-    &_head {
+    &__head {
         color: rgb(111, 110, 110);
         font-size: 14px;
         font-weight: 400;
@@ -725,18 +728,18 @@ a {
         border-left: 5px solid $colorSelectSite;
     }
 
-    &_item[open] .filter_head {
+    &__item[open] .filter__head {
         color: $colorSelectSite;
     }
 
-    &_link-box {
+    &__link-box {
         display: flex;
         flex-direction: column;
         gap: 11px;
         padding: 24px 16px;
     }
 
-    &_link {
+    &__link {
         color: rgb(111, 110, 110);
         font-size: 14px;
         font-weight: 400;
@@ -755,17 +758,17 @@ a {
     display: flex;
     gap: 18px;
 
-    &_details {
+    &__details {
         position: relative;
     }
 
-    &_summary {
+    &__summary {
         display: flex;
         align-items: center;
         gap: 10px;
     }
 
-    &_check {
+    &__check {
         display: flex;
         align-items: center;
         gap: 9px;
@@ -778,7 +781,7 @@ a {
         text-align: left;
     }
 
-    &_heading {
+    &__heading {
         color: rgb(111, 110, 110);
         font-size: 14px;
         font-weight: 400;
@@ -786,7 +789,7 @@ a {
         letter-spacing: 0%;
     }
 
-    &_box {
+    &__box {
         display: flex;
         flex-direction: column;
         gap: 8px;
@@ -799,7 +802,7 @@ a {
         z-index: 1;
     }
 
-    &_checkbox {
+    &__checkbox {
         border: 1px solid rgb(235, 235, 235);
     }
 }
@@ -810,7 +813,7 @@ a {
     padding-top: 96px;
     padding-bottom: 128px;
 
-    &_head {
+    &__head {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -818,7 +821,7 @@ a {
         height: 148px;
     }
 
-    &_title {
+    &__title {
         color: $colorSelectSite;
         font-size: 24px;
         font-weight: 400;
@@ -827,14 +830,14 @@ a {
         text-align: left;
     }
 
-    &_products {
+    &__products {
         width: 57%;
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
 
-    &_product {
+    &__product {
         position: relative;
         display: flex;
         -webkit-box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2);
@@ -842,16 +845,16 @@ a {
         box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2);
     }
 
-    &_product_info {
+    &__product__info {
         padding: 22px 150px 62px 31px;
 
     }
 
-    &_product_img {
+    &__product__img {
         max-width: 262px;
     }
 
-    &_product_title {
+    &__product__title {
         display: flex;
         padding-bottom: 42px;
         color: rgb(34, 34, 34);
@@ -865,13 +868,13 @@ a {
         }
     }
 
-    &_product_parametrs {
+    &__product__parametrs {
         display: flex;
         gap: 6px;
         flex-direction: column;
     }
 
-    &_product_parametr {
+    &__product__parametr {
         font-size: 22px;
         font-weight: 400;
         line-height: 26px;
@@ -880,19 +883,19 @@ a {
         color: #575757;
     }
 
-    &_product_price {
+    &__product__price {
         color: $colorSelectSite
     }
 
-    &_product_color {
+    &__product__color {
         color: #6F6E6E;
     }
 
-    &_product_size {
+    &__product__size {
         color: #6F6E6E;
     }
 
-    &_product_quantity {
+    &__product__quantity {
         width: 44px;
         margin-left: 25px;
         padding: 1px 1px 1px 1px;
@@ -904,7 +907,7 @@ a {
         text-align: center;
     }
 
-    &_product_delete {
+    &__product__delete {
         position: absolute;
         top: 28px;
         right: 22px;
@@ -913,12 +916,12 @@ a {
         }
     }
 
-    &_processing {
+    &__processing {
         width: 32%;
         box-sizing: border-box;
     }
 
-    &_shipping-adress-title {
+    &__shipping-adress-title {
         padding-bottom: 20px;
         color: #222222;
         font-size: 16px;
@@ -928,11 +931,11 @@ a {
         text-align: left;
     }
 
-    &_form_input {
+    &__form__input {
         padding-bottom: 20px;
     }
 
-    &_form_input-field {
+    &__form__input-field {
         box-sizing: border-box;
         padding-left: 16px;
         padding-right: 16pc;
@@ -949,13 +952,13 @@ a {
         }
     }
 
-    &_buttons {
+    &__buttons {
         display: flex;
         justify-content: space-between;
         padding-top: 32px;
     }
 
-    &_button {
+    &__button {
         padding: 15px 39px;
         font-size: 16px;
         font-weight: 400;
@@ -967,13 +970,13 @@ a {
         transition: $transitionTime;
     }
 
-    &_button:hover {
+    &__button:hover {
         color: #FFFFFF;
         background-color: $colorSelectSite;
         transition: $transitionTime;
     }
 
-    &_getquote-button {
+    &__getquote-button {
         margin-top: 4px;
         padding: 15px 39px;
         font-size: 16px;
@@ -987,19 +990,19 @@ a {
         transition: $transitionTime
     }
 
-    &_getquote-button:hover {
+    &__getquote-button:hover {
         color: #FFFFFF;
         background-color: $colorSelectSite;
         transition: $transitionTime;
     }
 
-    &_checkout {
+    &__checkout {
         margin-top: 58px;
         background-color: #F5F3F3;
         width: 100%;
     }
 
-    &_sub-total {
+    &__sub-total {
         display: flex;
         padding-top: 39px;
         padding-right: 34px;
@@ -1011,11 +1014,11 @@ a {
         letter-spacing: 0%;
     }
 
-    &_sub-total_price {
+    &__sub-total__price {
         padding-left: 20px;
     }
 
-    &_grand-total {
+    &__grand-total {
         display: flex;
         justify-content: flex-end;
         padding-top: 12px;
@@ -1026,12 +1029,12 @@ a {
         letter-spacing: 0%;
     }
 
-    &_grand-total_price {
+    &__grand-total__price {
         padding-left: 20px;
         color: $colorSelectSite;
     }
 
-    &_checkout_line {
+    &__checkout__line {
         width: 76%;
         margin-top: 21px;
         margin-left: 43px;
@@ -1040,7 +1043,7 @@ a {
         color: #E2E2E2;
     }
 
-    &_checkout-button {
+    &__checkout-button {
         width: 76%;
         padding: 15px 35px;
         margin-bottom: 42px;
@@ -1057,7 +1060,7 @@ a {
         ;
     }
 
-    &_checkout-button:hover {
+    &__checkout-button:hover {
         color: #FFFFFF;
         background-color: $colorSelectSite;
         cursor: pointer;
@@ -1077,23 +1080,23 @@ a {
         gap: 19px;
     }
 
-    .products_items {
+    .products__items {
         gap: 16px;
         grid-template-columns: repeat(2, 47%);
 
     }
 
-    .promo_title {
+    .promo__title {
         font-size: 36px;
         font-weight: 900;
     }
 
-    .promo_heading {
+    .promo__heading {
         font-size: 20px;
         font-weight: 900;
     }
 
-    .products_items {
+    .products__items {
         padding-top: 73px;
         padding-bottom: 71px;
     }
@@ -1109,12 +1112,12 @@ a {
         background-position: 25%;
     }
 
-    .subscribe_info {
+    .subscribe__info {
         margin-top: 64px;
         width: 100%;
     }
 
-    .subscribe_form {
+    .subscribe__form {
         margin-top: 53px;
         margin-bottom: 219px;
         width: 100%;
@@ -1124,35 +1127,35 @@ a {
 }
 
 @media (max-width: 768px) {
-    .header_left {
+    .header__left {
         padding-left: 16px;
     }
 
-    .header_right {
+    .header__right {
         flex-direction: row-reverse;
         padding-right: 26px;
     }
 
-    .account_logo {
+    .account__logo {
         visibility: hidden;
         position: absolute;
     }
 
-    .cart_logo {
+    .cart__logo {
         visibility: hidden;
         position: absolute;
     }
 
-    .count_products {
+    .count__products {
         visibility: hidden;
         position: absolute;
     }
 
-    .promo_img {
+    .promo__img {
         width: 0;
     }
 
-    .promo_content {
+    .promo__content {
         display: flex;
         min-height: 363px;
         align-items: center;
@@ -1162,7 +1165,7 @@ a {
         padding-right: calc(50% - 132px);
     }
 
-    .promo_info {
+    .promo__info {
         border-left: 12px solid $colorSelectSite;
         padding-left: 16px;
         margin-top: 0;
@@ -1175,28 +1178,28 @@ a {
         padding-right: calc(50% - 132px);
     }
 
-    .catalog_item {
+    .catalog__item {
         display: flex;
         justify-content: center;
     }
 
-    .catalog_item_big {
+    .catalog__item__big {
         grid-column: span 1;
 
     }
 
-    .catalog_img_big {
+    .catalog__img__big {
         object-fit: cover;
         height: 111px;
     }
 
-    .products_items {
+    .products__items {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .products_item {
+    .products__item {
         max-width: 320px;
 
     }
@@ -1209,11 +1212,11 @@ a {
         padding-bottom: 9px;
     }
 
-    .footer_copyright {
+    .footer__copyright {
         padding-left: 0;
     }
 
-    .footer_social_media {
+    .footer__social__media {
         padding-right: 0;
     }
 
