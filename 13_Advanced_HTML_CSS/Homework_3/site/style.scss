@@ -79,7 +79,7 @@ a {
     z-index: 1;
     transition: right 0.6s;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-    
+
     &_img {
         cursor: pointer;
     }
@@ -356,7 +356,7 @@ a {
 .button_all_products {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .all_products {
@@ -829,12 +829,14 @@ a {
 
     &_products {
         width: 57%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
 
     &_product {
         position: relative;
         display: flex;
-        margin-bottom: 40px;
         -webkit-box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2);
         box-shadow: 15px 15px 20px 0px rgba(0, 0, 0, 0.2);
@@ -850,6 +852,7 @@ a {
     }
 
     &_product_title {
+        display: flex;
         padding-bottom: 42px;
         color: rgb(34, 34, 34);
         font-size: 24px;
@@ -857,6 +860,9 @@ a {
         line-height: 29px;
         letter-spacing: 0%;
         text-align: left;
+        &:hover{
+            text-decoration: underline;
+        }
     }
 
     &_product_parametrs {
@@ -887,21 +893,24 @@ a {
     }
 
     &_product_quantity {
-        width: 12px;
-        margin-left: 22px;
-        padding: 1px 15px 1px 15px;
+        width: 44px;
+        margin-left: 25px;
+        padding: 1px 1px 1px 1px;
         color: #6F6E6E;
         font-size: 18px;
         font-weight: 400;
         line-height: 22px;
         letter-spacing: 0%;
-        text-align: left;
+        text-align: center;
     }
 
     &_product_delete {
         position: absolute;
         top: 28px;
         right: 22px;
+        &:hover path{
+            fill: $colorSelectSite;
+        }
     }
 
     &_processing {
@@ -924,14 +933,20 @@ a {
     }
 
     &_form_input-field {
-        padding: 13px 17px 16px 17px;
-        width: 90%;
-        color: rgb(177, 177, 177);
+        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16pc;
+        width: 100%;
+        height: 45px;
         font-size: 13px;
         font-weight: 300;
         line-height: 16px;
         letter-spacing: 0%;
         text-align: left;
+        outline: none;
+        &::placeholder {
+            color: rgb(177, 177, 177);
+        }
     }
 
     &_buttons {
@@ -1038,7 +1053,8 @@ a {
         background-color: #FFFFFF;
         color: #4A4A4A;
         border: 1px solid rgb(164, 164, 164);
-        transition: $transitionTime;;
+        transition: $transitionTime;
+        ;
     }
 
     &_checkout-button:hover {
