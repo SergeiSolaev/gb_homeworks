@@ -1,45 +1,11 @@
-/*
 
-Задание 2
-    Вы управляете рестораном, в котором работают разные повара, специализирующиеся на определенных блюдах. Клиенты приходят и делают заказы на разные блюда.
-
-    Необходимо создать систему управления этими заказами, которая позволит:
-
-        • Отслеживать, какой повар готовит какое блюдо.
-        • Записывать, какие блюда заказал каждый клиент.
-
-    Используйте коллекции Map для хранения блюд и их поваров, а также для хранения заказов каждого клиента. В качестве ключей для клиентов используйте объекты.
-
-    Повара и их специализации:
-
-        Виктор - специализация: Пицца.
-        Ольга - специализация: Суши.
-        Дмитрий - специализация: Десерты.
-
-    Блюда и их повара:
-
-        Пицца "Маргарита" - повар: Виктор.
-        Пицца "Пепперони" - повар: Виктор.
-        Суши "Филадельфия" - повар: Ольга.
-        Суши "Калифорния" - повар: Ольга.
-        Тирамису - повар: Дмитрий.
-        Чизкейк - повар: Дмитрий.
-
-    Заказы:
-
-        Клиент Алексей заказал: Пиццу "Пепперони" и Тирамису.
-        Клиент Мария заказала: Суши "Калифорния" и Пиццу "Маргарита".
-        Клиент Ирина заказала: Чизкейк.
-
-*/
-
-let cooksSpecializtion = new Map ([
+let cookSpecializtion = new Map([
     ['Виктор', 'Пицца'],
     ['Ольга', 'Суши'],
     ['Дмитрий', 'Десерты'],
 ])
 
-let dishes = new Map ([
+let dishes = new Map([
     ['Пицца "Пепперони"', 'Виктор'],
     ['Пицца "Маргарита"', 'Виктор'],
     ['Суши "Филадельфия"', 'Виктор'],
@@ -48,20 +14,46 @@ let dishes = new Map ([
     ['Чизкейк', 'Виктор'],
 ])
 
-let orders = new Map ([])
-
-function Client (name) {
+const clients = [];
+function Client(name) {
     this.name = name;
 }
 
-const Client1 = new Client('Алексей')
-const Client2 = new Client('Мария')
-const Client3 = new Client('Ирина')
+let orders = new Map([]);
 
-orders.set(Client1, ['Пицца "Пепперони"', 'Тирамису'])
-orders.set(Client2, ['Пицца "Пепперони"', 'Тирамису'])
-orders.set(Client3, ['Чизкейк'])
+const clientForm = document.getElementById('clientForm');
+const showOrders = document.getElementById('showOrders');
 
-console.log(`Клиент ${Client1.name} заказал: ${orders.get(Client1)}`);
-console.log(`Клиент ${Client2.name} заказал: ${orders.get(Client2)}`);
-console.log(`Клиент ${Client3.name} заказал: ${orders.get(Client3)}`);
+
+function retrieveFormValue(event) {
+    event.preventDefault();
+    const name = clientForm.querySelector('[name="name"]');
+    const dishesFirst = clientForm.querySelector('[id="dishesSelectFirst"]');
+    const dishesSecond = clientForm.querySelector('[id="dishesSelectSecond"]');
+    const nameValue = name.value;
+    const order = [dishesFirst.value, dishesSecond.value];
+    clients.push(new Client(nameValue));
+    orders.set(clients[clients.length - 1], order);
+}
+
+function retrievOrders(event) {
+    event.preventDefault();
+    let array = [];
+    for (let name of orders.keys()) {
+        array.push([[name.name],[orders.get(name)]]);
+    }
+
+    const ordersHtml = array.map((item) => `<li>Клиент ${item[0]} заказал: ${item[1]}</li>`).join('');
+    document.querySelector('ul').innerHTML = ordersHtml;
+
+    console.clear();
+    for (let name of orders.keys()) {
+        console.log(`Клиент ${name.name} заказал: ${orders.get(name)}`);
+    }
+}
+
+clientForm.addEventListener('submit', retrieveFormValue);
+showOrders.addEventListener('click', retrievOrders);
+
+
+
