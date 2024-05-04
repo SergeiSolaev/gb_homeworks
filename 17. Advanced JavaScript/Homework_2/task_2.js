@@ -51,6 +51,7 @@ const clientForm = document.getElementById('clientForm');
 function updateRewiev() {
     const rewievHtml = productRewievs.map((item) => `<div class="productName">${item.product}</div><div class="textRewiev">${item.reviews[0].text}</div>`).join('');
     document.querySelector('[class="rewievs"').innerHTML = rewievHtml;
+    console.log(productRewievs);
 }
 
 // метод добавляет отзыв в массив с отзывами
@@ -58,7 +59,8 @@ function addReview(event) {
 
     // данный блок собирает данные со страницы и формирует отзыв
     event.preventDefault();
-    const productRewievId = productRewievs.length + 2;
+    const productRewievIdInt = parseInt(productRewievs[productRewievs.length - 1].reviews[productRewievs[productRewievs.length - 1].reviews.length - 1].id) + 1;
+    const productRewievId = productRewievIdInt.toString();
     const productName = clientForm.querySelector('[id="productName"]').value;
     const reviewText = clientForm.querySelector('[id="reviewText"]').value;
     const productRewiev = {
@@ -74,8 +76,20 @@ function addReview(event) {
     // данный блок проверяет длину текста отзыва
     try {
         if (reviewText.length > 50 && reviewText.length < 500) {
-            // если проверка пройдена, то добавляем отзыв в массив
-            productRewievs.push(productRewiev);
+                        
+            // далее проверка на то, существует ли отзыв на данный продукт
+            let rewiewsAdded = false;
+            productRewievs.forEach(element => {
+                if (element.product === productName) {
+                    element.reviews.push(productRewiev.reviews[0]); // добавляем отзыв
+                    rewiewsAdded = true;
+                }
+            });
+
+            // или не существует отзыв на данный продукт
+            if (!rewiewsAdded) {
+                productRewievs.push(productRewiev); // добавляем отзыв
+            }
         }
         // в противном случае генерируем исключение... 
         else throw error = new Error('Отзыв слишком короткий или слишком длинный! Длина отзыва должна быть от 50 до 500 символов.')
