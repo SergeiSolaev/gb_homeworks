@@ -43,7 +43,7 @@ const productRewievs = [
         ],
     },
 ];
-//<div class="productName">${item.product}
+
 // переменная для получения данных с формы отзыва
 const clientForm = document.getElementById('clientForm');
 
