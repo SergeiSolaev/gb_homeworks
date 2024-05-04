@@ -43,15 +43,20 @@ const productRewievs = [
         ],
     },
 ];
-
+//<div class="productName">${item.product}
 // переменная для получения данных с формы отзыва
 const clientForm = document.getElementById('clientForm');
 
 // метод для вывода отзывов на страницу
 function updateRewiev() {
-    const rewievHtml = productRewievs.map((item) => `<div class="productName">${item.product}</div><div class="textRewiev">${item.reviews[0].text}</div>`).join('');
+    const rewievHtml = productRewievs.map(function (item) {
+        if (item.reviews.length > 1) {
+            return `<div class="productName">${item.product}${item.reviews.map((elem) => `</div><div class="textRewiev">Отзыв: ${elem.text}</div>`).join('')}`
+        } else {
+            return `<div class="productName">${item.product}</div><div class="textRewiev">Отзыв: ${item.reviews[0].text}</div>`;
+        }
+    }).join('')
     document.querySelector('[class="rewievs"').innerHTML = rewievHtml;
-    console.log(productRewievs);
 }
 
 // метод добавляет отзыв в массив с отзывами
