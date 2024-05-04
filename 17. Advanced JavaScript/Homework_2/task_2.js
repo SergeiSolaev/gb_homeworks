@@ -47,7 +47,13 @@ const productRewievs = [
 // переменная для получения данных с формы отзыва
 const clientForm = document.getElementById('clientForm');
 
-// метод добавляет отзыв в базу данных
+// метод для вывода отзывов на страницу
+function updateRewiev() {
+    const rewievHtml = productRewievs.map((item) => `<div class="productName">${item.product}</div><div class="textRewiev">${item.reviews[0].text}</div>`).join('');
+    document.querySelector('[class="rewievs"').innerHTML = rewievHtml;
+}
+
+// метод добавляет отзыв в массив с отзывами
 function addReview(event) {
 
     // данный блок собирает данные со страницы и формирует отзыв
@@ -78,14 +84,11 @@ function addReview(event) {
         alert('Ошибка: ' + error.message);
     }
 
-    // данный блок выводит отзывы на страницу
-    const rewievHtml = productRewievs.map((item) => `<div class="productName">${item.product}</div><div class="textRewiev">${item.reviews[0].text}</div>`).join('');
-    document.querySelector('div').innerHTML = rewievHtml;
+    // выводим отзывы на страницу
+    updateRewiev();
 }
 
 // первоначально выводим отзывы на страницу
-const rewievHtml = productRewievs.map((item) => `<div class="productName">${item.product}</div><div class="textRewiev">${item.reviews[0].text}</div>`).join('');
-document.querySelector('div').innerHTML = rewievHtml;
-
+updateRewiev();
 // слушаем нажатие кнопки, при нажатии кнопки "Отправить отзыв" запускается функция addRewiev
 clientForm.addEventListener('submit', addReview);

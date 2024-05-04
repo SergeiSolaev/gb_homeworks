@@ -2,12 +2,17 @@
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-.inputProductName {
+.clientForm {
+    background-color: rgb(255, 170, 222);
     width: 500px;
 }
 
+.inputProductName {
+    width: 493px;
+}
+
 .inputRewievText {
-    width: 500px;
+    width: 494px;
 }
 
 .productName {
@@ -23,6 +28,8 @@
 }
 
 .rewievs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 170, 222);
     width: 500px;
-
 }
