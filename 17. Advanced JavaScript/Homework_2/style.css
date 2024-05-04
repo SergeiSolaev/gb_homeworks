@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.inputProductName {
+    width: 500px;
+}
+
+.inputRewievText {
+    width: 500px;
+}
+
+.productName {
+    width: 500px;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.textRewiev {
+    width: 500px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.rewievs {
+    width: 500px;
+
+}
