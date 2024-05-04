@@ -50,12 +50,16 @@ const clientForm = document.getElementById('clientForm');
 // метод для вывода отзывов на страницу
 function updateRewiev() {
     const rewievHtml = productRewievs.map(function (item) {
+
+        // если на один продукт больше одного отзыва, то отзывы на этот продукт выводим под одним заголовком
         if (item.reviews.length > 1) {
             return `<div class="productName">${item.product}${item.reviews.map((elem) => `</div><div class="textRewiev">Отзыв: ${elem.text}</div>`).join('')}`
         } else {
+            // если на один продукт один отзыв
             return `<div class="productName">${item.product}</div><div class="textRewiev">Отзыв: ${item.reviews[0].text}</div>`;
         }
     }).join('')
+
     document.querySelector('[class="rewievs"').innerHTML = rewievHtml;
 }
 
