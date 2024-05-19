@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    width: 70%;  
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.btn {
+    height: 40px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-circle {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(145, 145, 145);
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    
+}
+
+.active {
+    width: 15px;
+    height: 15px;
+    background: rgb(0, 0, 0);
+    transition: background-color 0.6s ease;
+}
