@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #ad9393;
+    padding: 5px;
+    width: 520px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.container-likes {
+    width: 510px;
+    border: 2px solid #ad9393;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80px;
+}
+
+.container-likes-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.likes-count {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.like-btn {
+    cursor: pointer;
+}
+
+.likes-text {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author-name {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
