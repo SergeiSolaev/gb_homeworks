@@ -1,0 +1,59 @@
+<!-- Часть 2. Задание по Vue
+
+1. Создать кнопку "Перевернуть". При клике на кнопку текст кнопки, должен перевернуться и отобразиться в обратном порядке.
+
+2. Есть список элементов. Пользователь может добавлять новые элементы списка с текстом “Новый элемент списка” нажав на кнопку "Добавить".
+
+3. *Дополнительное задание: При клике на элемент списка он должен быть удален. (по желанию) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h2>Задание 1</h2>
+        <button @click="reverseText">Нажмите что-бы перевернуть текст</button>
+        <p>{{text}}</p>
+
+        <h2>Задание 2</h2>
+        <button @click="addItem">Добавить</button>
+        <ul>
+            <li v-for="(item, index) in items" :key="index" @click="removeItem">{{item}}</li>
+        </ul>
+    </div>
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = {
+            data() {
+                return {
+                    text: 'Перевёреутый текст!',
+                    items: ['Элемент 1', 'Элемент 2', 'Элемент 3']
+                }
+            },
+            methods: {
+                reverseText() {
+                    this.text = this.text.split('').reverse().join('')
+                },
+                addItem() {
+                    this.items.push('Новый элемент списка')
+                },
+                removeItem(index) {
+                    this.items.splice(index, 1)
+                }
+            }
+        }
+
+        Vue.createApp(app).mount('#app')
+    
+    </script>
+</body>
+
+</html>
