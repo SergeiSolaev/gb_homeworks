@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="product in products" :key="product.id">{{ product.name }} - {{ product.price }}</li>
+            Сортировать товар по цене
+            <br>
+            <select v-model="sortOption" name="" id="">
+                <option value="asc">По возрастанию</option>
+                <option value="desc">По убыванию</option>
+            </select>
+            <br>
+            <button @click="sortProduct">Сортировать</button>
+        </ul>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        /*        *Часть 2. Задание Vue**
+        Вы разрабатываете приложение для отображения и сортировки списка товаров. У вас есть массив объектов products, где каждый объект представляет товар с его названием и ценой. Вам необходимо отобразить список товаров и предоставить пользователю возможность сортировать товары по цене (по возрастанию и по убыванию).
+        */
+        const app = {
+            data() {
+                return {
+                    sortOption: '',
+                    products: [
+                        {
+                            id: 1,
+                            name: 'Хлеб',
+                            price: 50
+                        },
+                        {
+                            id: 2,
+                            name: 'Молоко',
+                            price: 70
+                        },
+                        {
+                            id: 3,
+                            name: 'Мясо',
+                            price: 500
+                        },
+                        {
+                            id: 4,
+                            name: 'Яйца',
+                            price: 120
+                        }
+                    ]
+                }
+            },
+            methods: {
+                sortProduct() {
+                    if (this.sortOption === 'asc') {
+                        this.products.sort((a, b) => a.price - b.price);
+                    } else if (this.sortOption === 'desc') {
+                        this.products.sort((a, b) => b.price - a.price);
+                    }
+                }
+            }
+        }
+
+        Vue.createApp(app).mount("#app");
+    </script>
+</body>
+
+</html>
